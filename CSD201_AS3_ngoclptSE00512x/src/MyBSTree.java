@@ -82,7 +82,7 @@ public class MyBSTree {
     }
 
     //option 5
-    //BST a trê
+    //BST a tree
     public void BST() {
         if(root == null)
             return;
@@ -157,5 +157,44 @@ public class MyBSTree {
             p = p.getLeft();
         }
         return min;
+    }
+
+    //option 8
+    //balancing tree
+    public void balance(ArrayList<Person> data, int first, int last) {
+        if(first <= last) {
+            int middle = (first + last) / 2;
+            insert(data.get(middle));
+            balance(data, first, middle - 1);
+
+            balance(data, middle + 1, last);
+        }
+    }
+
+    public void balance() {
+        //check balance
+        if (check) {
+            System.out.println("Tree has been balanced! ");
+            return;
+        }
+
+        copyTree(root);
+        balance(list, 0, list.size() - 1);
+        check = true;
+    }
+
+    //clear tree
+    public void deleteTree() {
+        root = null;
+    }
+
+    //copy sort delete
+    public void copyTree(Node p) {
+        if(p != null) {
+            copyTree(p.getLeft());
+            list.add(p.getInfo());
+            copyTree(p.getRight());
+        }
+        deleteTree();
     }
 }
