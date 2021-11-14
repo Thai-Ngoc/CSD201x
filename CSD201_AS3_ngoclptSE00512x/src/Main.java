@@ -29,7 +29,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         sc = new Scanner(System.in);
         MyPerson myPerson = new MyPerson();
-        //Graph g = new Graph()
+        Graph g = new Graph();
         int choice;
         while(true) {
             System.out.println("Choose one of these options: ");
@@ -96,6 +96,34 @@ public class Main {
 
                 case 8 -> {
                     myPerson.balance();
+                    end();
+                }
+
+                case 9 -> {
+                    g.printMatrix();
+                    end();
+                }
+
+                case 10 -> {
+                    System.out.print("DFS_Graph: ");
+                    g.DFS(0);
+                    System.out.println();
+                    end();
+                }
+
+                case 11 -> {
+                    g.BFS(0);
+                    System.out.println();
+                    end();
+                }
+
+                case 12 -> {
+                    g.dijkstra(0, 4);
+                    end();
+                }
+
+                default -> {
+                    System.out.println("**Invalid choice. Try again.**");
                     end();
                 }
             }
