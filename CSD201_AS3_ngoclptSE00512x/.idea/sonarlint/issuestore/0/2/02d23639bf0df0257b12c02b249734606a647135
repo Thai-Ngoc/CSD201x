@@ -1,0 +1,42 @@
+
+W
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(‡Ù†á
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(Ÿ·şë
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(æˆÈ‘
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(Á‘¯êùÿÿÿÿ
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+6	java:S131>""Add a default case to this switch.(ìúÇV
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(ªÚñ©úÿÿÿÿ
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(úñàêøÿÿÿÿ
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(é›£«
+S	java:S106B"9Replace this use of System.out or System.err by a logger.(‘ÌÖûÿÿÿÿ
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(Ó¼Ú÷ÿÿÿÿÿ
+S	java:S106D"9Replace this use of System.out or System.err by a logger.(Ş¯Ÿ×ÿÿÿÿÿ
+N	java:S106E"9Replace this use of System.out or System.err by a logger.(ÚéºÖ
+6	java:S131K""Add a default case to this switch.(ìúÇV
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(ªÚñ©úÿÿÿÿ
+N	java:S106M"9Replace this use of System.out or System.err by a logger.(ûÆ
+N	java:S106N"9Replace this use of System.out or System.err by a logger.(Ğé«¬
+N	java:S106O"9Replace this use of System.out or System.err by a logger.(ÒçË
+S	java:S106P"9Replace this use of System.out or System.err by a logger.(Ç¦¶®ûÿÿÿÿ
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(…°°Œúÿÿÿÿ
+S	java:S106R"9Replace this use of System.out or System.err by a logger.(ÿ‡´¹ûÿÿÿÿ
+c	java:S100Y"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç¼ì
+h	java:S100f"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûŠ¢Çøÿÿÿÿ
+S	java:S106g"9Replace this use of System.out or System.err by a logger.(Û×Ù­ûÿÿÿÿ
+U
+java:S1117i":Rename "visited" which hides the field declared at line 8.(İ¹Æúÿÿÿÿ
+N	java:S106’"9Replace this use of System.out or System.err by a logger.(úõÓF
+N	java:S106›"9Replace this use of System.out or System.err by a logger.(ğš­H
+T	java:S106œ"9Replace this use of System.out or System.err by a logger.(İÙ¸‹ûÿÿÿÿ
+O	java:S106"9Replace this use of System.out or System.err by a logger.(åå±ï
+T	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+Q
+java:S1117§":Rename "visited" which hides the field declared at line 8.(™‹Â
+f	java:S117}"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÜ•Ä
+E
+java:S5411"*Use the primitive boolean expression here.(¤‰„şÿÿÿÿ
+F
+java:S5411´"*Use the primitive boolean expression here.(°›ıøÿÿÿÿÿ
+0
+java:S1220""Move this file to a named package.

@@ -1,0 +1,16 @@
+
+4
+java:S1659"Declare "p" on a separate line.(„¸³3
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(¹¸½Ó
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(Ð Ùñþÿÿÿÿ
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(Ð Ùñþÿÿÿÿ
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(Ð Ùñþÿÿÿÿ
+h	java:S100V"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É×—Àûÿÿÿÿ
+S	java:S106^"9Replace this use of System.out or System.err by a logger.(Ð Ùñþÿÿÿÿ
+T	java:S106±"9Replace this use of System.out or System.err by a logger.(Ôïøøÿÿÿÿ
+M
+java:S2696·"6Make the enclosing method "static" or remove this set.(ëµÎà
+€
+java:S1319¤"dThe type of "data" should be an interface such as "List" rather than the implementation "ArrayList".(€¥¸…ÿÿÿÿÿ
+0
+java:S1220""Move this file to a named package.

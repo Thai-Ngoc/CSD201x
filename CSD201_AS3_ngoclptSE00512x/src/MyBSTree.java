@@ -110,7 +110,7 @@ public class MyBSTree {
             return p;
         }
 
-        if(p.getInfo().getId() < key) {
+        if(p.getInfo().getId() > key) {
             return search(p.getLeft(), key);
         } else {
             return search(p.getRight(), key);
