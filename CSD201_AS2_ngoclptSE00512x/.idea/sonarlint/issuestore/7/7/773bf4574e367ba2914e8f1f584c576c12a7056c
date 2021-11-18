@@ -1,0 +1,8 @@
+
+=
+java:S1659(""Declare "prev" on a separate line.(Û¶™ôüÿÿÿÿ
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(úõ–áùÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+X
+java:S22598"BA "NullPointerException" could be thrown; "prev" is nullable here.(íËÅé

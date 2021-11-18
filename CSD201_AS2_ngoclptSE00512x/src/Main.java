@@ -72,8 +72,10 @@ public class Main {
         String title = sc.nextLine();
         System.out.print("Input Product's quantity: ");
         int quantity = checkIntNumber(); // check int
+        quantity = checkPositiveInt(quantity);
         System.out.print("Input Product's price: ");
         double price = checkDoubleNumber(); // check double
+        price = checkPositiveDouble(price);
 
         return new Product(id, title, quantity, price);
     }
@@ -190,37 +192,57 @@ public class Main {
     }
     // check int input.
     private static int checkIntNumber() {
-        int num = 0;
         sc = new Scanner(System.in);
-        boolean check = true;
-        while (check) {
+
+        int input = 0;
+        boolean check = false;
+        while (!check) {
             if (sc.hasNextInt()) {
-                num = sc.nextInt();
-                check = false;
+                input = sc.nextInt();
+                check = true;
+                return input;
             } else {
-                System.out.println("Should you enter an integer?");
-                System.out.print("Your choice: ");
-                sc.nextLine();
+                System.out.print("Please enter an integer value: ");
+                check = false;
             }
+            sc.next();
         }
-        return num;
+        return input;
+    }
+
+    private static int checkPositiveInt(int n) {
+        while(n < 0) {
+            System.out.print("Please enter a non-negative integer ");
+            n = checkIntNumber();
+        }
+        return n;
     }
     // check double input.
     private static double checkDoubleNumber() {
-        double num = 0;
         sc = new Scanner(System.in);
-        boolean check = true;
-        while (check) {
+
+        double input = 0;
+        boolean check = false;
+        while (!check) {
             if (sc.hasNextDouble()) {
-                num = sc.nextDouble();
-                check = false;
+                input = sc.nextDouble();
+                check = true;
+                return input;
             } else {
-                System.out.println("Should enter a real number?");
-                System.out.print("Your choice: ");
-                sc.nextLine();
+                System.out.print("Please enter a real number: ");
+                check = false;
             }
+            sc.next();
         }
-        return num;
+        return input;
+    }
+
+    private static double checkPositiveDouble(double n) {
+        while(n < 0) {
+            System.out.print("Please enter a non-negative value ");
+            n = checkDoubleNumber();
+        }
+        return n;
     }
 
     public static void main(String[] args) throws Exception {
